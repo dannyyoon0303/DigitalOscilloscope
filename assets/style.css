@@ -1,0 +1,142 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.title-divider {
+    border: none;
+    border-top: 4px solid #e1e4e8;  /* grey line */
+    width: 50%;
+    margin: 0 auto 20px auto;       /* centered with spacing below */
+}
+
+.button-group {
+    display: flex;
+    gap: 15px; /* Adds spacing between buttons */
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.button-group button:hover {
+    background-color: #0b5ed7;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+.custom-slider .rc-slider-track{
+    background-color: #0d6efd;
+}
+
+.custom-slider .rc-slider-mark-text {
+    font-size: 10px;
+}
+
+.trigger-settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trigger-input {
+    display: flex;
+    flex-direction: column;
+    min-width: 260px;
+}
+
+.trigger-input label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+.status-display {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d6efd; /* Same blue as button or customize */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.custom-dropdown .Select-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+}
+
+.custom-input {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.channel-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.channel-input-field {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.channel-input-button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.channel-input-button:hover {
+    background-color: #0b5ed7;
+}
+
+.two-dropdown-row{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.trigger-dropdown{
+    width: 200px;
+}
